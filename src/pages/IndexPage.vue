@@ -5,6 +5,12 @@
 
     <div class="image-container">
       <img v-for="(url, index) in imageURLs" :key="index" :src="url" alt="Stored Image" />
+      <img
+        v-for="(url, index) in 50"
+        :key="index"
+        :src="`../../public/signs/ogoxlantiruvchi/${index + 1}.png`"
+        alt="Stored Image"
+      />
     </div>
   </div>
 </template>
