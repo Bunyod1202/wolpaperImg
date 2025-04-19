@@ -8,7 +8,7 @@
       <img
         v-for="(url, index) in 50"
         :key="index"
-        :src="`../../public/signs/ogoxlantiruvchi/${index + 1}.png`"
+        :src="`./public/signs/ogoxlantiruvchi/${index + 1}.png`"
         alt="Stored Image"
       />
     </div>
