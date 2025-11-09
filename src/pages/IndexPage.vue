@@ -2,7 +2,7 @@
   <div>
     <input type="file" multiple @change="handleFileUpload" />
     <button @click="loadFiles">Load Images</button>
-
+    <a href="./public/a1t1l1(1).mp3">Download</a>
     <div class="image-container">
       <img v-for="(url, index) in imageURLs" :key="index" :src="url" alt="Stored Image" />
       <!-- <img
